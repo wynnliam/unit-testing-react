@@ -19,7 +19,7 @@ export default class MyComponent extends React.Component {
 		return(
 			<div>
 				<button onClick={this.toggleIsShown}>Toggle</button>
-				<div>Text goes here</div>
+				{ isShown && <div>Text goes here</div> }
 			</div>
 		);
 	}
