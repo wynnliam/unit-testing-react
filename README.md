@@ -1,3 +1,10 @@
+# Unit Testing In React
+This is a simple project to demonstrate unit testing in React. There are two tests included.
+One tests that MyComponent has has  text displaying by default. The second one tests that when
+a button is clicked, the text disappears.
+
+This is from a [tutorial by WellPaidGeek](https://www.youtube.com/watch?v=XUlGzJLZe2Q)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -5,6 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+This doesn't actually do anything but display the default App. Go to `npm test` for
+the good stuff
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
